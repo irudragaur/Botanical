@@ -1,0 +1,139 @@
+/* Width <= 1100px */
+@media (max-width: 1100px) {
+    .header {
+        height: 100vh;
+        position: relative;
+    }
+
+    .header__navbar {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+    }
+
+    .header__hero {
+        width: 100vw;
+        height: 100vh;
+        position: relative;
+        top: 0;
+        left: 0;
+    }
+
+    .hero__text {
+        position: absolute;
+        top: 40%;
+        left: 25%;
+        transform: translate(-50%, -50%);
+    
+        width: 40%;
+    }
+    
+    .hero__text > h1 {
+        font-size: 7rem;    
+    }
+
+    .header__navbar {
+        height: 10vh;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 2;
+        padding-left: 5rem;
+    }
+}
+
+/* Width <= 1025px */
+@media (max-width: 1025px) {
+    .hero__text > h1 {
+        font-size: 6rem;    
+    }
+}
+
+/* Width <= 900px */
+@media (max-width: 900px) {
+    .hero__text > h1 {
+        font-size: 5rem;    
+    }
+}
+
+/* Width <= 740px */
+@media (max-width: 740px) {
+    
+    .hero__text {
+        position: absolute;
+        top: 35%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    
+        width: 70%;
+        text-align: center;
+    }
+    
+    .hero__text > h1 {
+        font-size: 5rem;    
+    }
+
+    .hero__cta {
+        position: absolute;
+        top: 60%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 15rem;
+    }
+}
+
+/* Width <= 630px */
+@media (max-width: 630px) {
+    .hero__text {
+        position: absolute;
+        top: 35%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    
+        width: 80%;
+        text-align: center;
+    }
+    
+    .hero__text > h1 {
+        font-size: 4.5rem;    
+    }
+}
+
+/* Width <= 560px */
+@media (max-width: 560px) {
+    .header__navbar {
+        justify-content: center;
+        padding: 0;
+    }
+}
+
+/* Width <= 500px */
+@media (max-width: 500px) {
+    .hero__text {
+        position: absolute;
+        top: 35%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    
+        width: 90%;
+        text-align: center;
+    }
+}
+
+/* Width <= 500px */
+@media (max-width: 440px) {
+    .hero__text {
+        position: absolute;
+        top: 35%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    
+        width: 90%;
+        text-align: center;
+    }
+    
+    .hero__text > h1 {
+        font-size: 4rem;    
+    }
+}

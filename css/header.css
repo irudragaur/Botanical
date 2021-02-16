@@ -24,7 +24,7 @@
     background-image: linear-gradient(to right bottom, rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)), 
                       url('../img/hero.jpg');
     background-size: cover;
-    background-position: center;
+    background-position: top center;
 
     position: absolute;
     top: 10vh;
@@ -50,7 +50,7 @@
     position: absolute;
     top: 37.5%;
     right: 10%;
-    width: 13%;
+    width: 15rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
