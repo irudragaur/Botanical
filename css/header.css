@@ -1,0 +1,63 @@
+.header {
+    height: 80vh;
+    background: var(--color-black);
+    position: relative;
+}
+
+.header__navbar {
+    height: 10vh;
+    color: var(--color-white);
+    display: flex;
+    align-items: center;
+    padding-left: 12rem;
+}
+
+.header__navbar h1 {
+    font-family: 'Playfair Display', sans-serif;
+    font-size: 5rem;
+    line-height: 1;
+}
+
+.header__hero {
+    width: 90vw;
+    height: 85vh;
+    background-image: linear-gradient(to right bottom, rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)), 
+                      url('../img/hero.jpg');
+    background-size: cover;
+    background-position: center;
+
+    position: absolute;
+    top: 10vh;
+    right: 0;
+}
+
+.hero__text {
+    position: absolute;
+    top: 40%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+
+    width: 30%;
+}
+
+.hero__text > h1 {
+    color: var(--color-white);
+    font-size: 5rem;    
+    line-height: 1.5;
+}
+
+.hero__cta {
+    position: absolute;
+    top: 37.5%;
+    right: 10%;
+    width: 13%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero__cta > p {
+    font-size: 1.5rem;
+    color: var(--color-white);
+}
+
